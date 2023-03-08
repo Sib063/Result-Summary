@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,500;0,700;1,800&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ecf2ff;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.container {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.top-box {
+  background-image: Linear-Gradient(#7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  width: 100%;
+  padding-top: 24px;
+  border-bottom-right-radius: 32px;
+  border-bottom-left-radius: 32px;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  color: #cac9ff;
+  text-align: center;
+}
+.oval {
+  width: 140px;
+  height: 140px;
+  background-image: Linear-Gradient(
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  border-radius: 50%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 24px;
+}
+.number {
+  font-size: 56px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+}
+.text-and-number {
+  font-weight: 700;
+  font-size: 16px;
+  color: #cac9ff;
+  text-align: center;
+}
+.rate {
+  font-weight: 700;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 24px;
+}
+.comment {
+  font-weight: 500;
+  font-size: 16px;
+  color: #cac9ff;
+  text-align: center;
+  margin-top: 8px;
+  padding-bottom: 40px;
+}
+.bottom-container {
+  margin: 30px;
+}
+
+.sumary {
+  font-weight: 700;
+  font-size: 18px;
+}
+.react {
+  width: 100%;
+  height: 56px;
+  background-color: rgba(255, 85, 85, 0.05);
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 16px 0 20px;
+  margin-top: 16px;
+}
+
+.number1 {
+  font-weight: 700;
+  font-size: 16px;
+}
+.first {
+  font-weight: 700;
+  font-size: 16px;
+  color: rgba(48, 59, 89, 0.5);
+}
+
+.diiv {
+  display: flex;
+  gap: 16.17px;
+}
+.two {
+  background-color: rgba(255, 178, 30, 0.05);
+}
+.three {
+  background-color: rgba(0, 187, 143, 0.05);
+}
+.four {
+  background-color: rgba(17, 37, 214, 0.05);
+}
+.continue {
+  width: 315px;
+  height: 56px;
+  border-radius: 128px;
+  background-color: #303b59;
+  margin-top: 24px;
+  cursor: pointer;
+}
+.next {
+  font-weight: 700;
+  font-size: 18px;
+  color: #ffffff;
+  text-align: center;
+  padding: 16px;
+}
+.continue:hover {
+  background-image: Linear-Gradient(
+    rgba(119, 85, 255, 1),
+    rgba(105, 67, 255, 1),
+    rgba(47, 44, 233, 1)
+  );
+}
+
+@media (min-width: 1440px) {
+  .top-box {
+    border-radius: 32px;
+    width: 368px;
+    height: 512px;
+  }
+  .oval {
+    width: 200px;
+    height: 200px;
+    margin-top: 35px;
+  }
+  .number {
+    font-size: 72px;
+  }
+  .text-and-number {
+    font-size: 18px;
+    text-align: center;
+  }
+  .rate {
+    font-size: 32px;
+    margin-top: 28px;
+  }
+  .comment {
+    font-size: 18px;
+    width: 260px;
+
+    margin: auto;
+    margin-top: 14px;
+  }
+  .container {
+    width: 736px;
+    height: 512px;
+    display: flex;
+
+    align-items: center;
+    border-radius: 32px;
+  }
+  .title {
+    font-size: 32px;
+  }
+  .bottom-container {
+    margin: 40px;
+    margin: 28px;
+  }
+  .sumary {
+    font-size: 24px;
+  }
+  .continue {
+    width: 288px;
+    height: 56px;
+    margin-top: 41px;
+  }
+  .next {
+    font-size: 18px;
+  }
+}
